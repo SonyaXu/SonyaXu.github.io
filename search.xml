@@ -107,7 +107,27 @@
   <entry>
     <title>computer-network-week1</title>
     <url>/2025/08/28/computer-network-week1/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><h2 id="因特网结构"><a href="#因特网结构" class="headerlink" title="因特网结构"></a>因特网结构</h2><p>isp：因特网服务提供者，如移动电信联通</p>
+<p><img src="https://raw.githubusercontent.com/SonyaXu/my-pics/main/%7B53B82ACA-5705-4CD3-ADE9-73C82A6F8901%7D.png" alt="{53B82ACA-5705-4CD3-ADE9-73C82A6F8901}"></p>
+<h2 id="因特网的组成"><a href="#因特网的组成" class="headerlink" title="因特网的组成"></a>因特网的组成</h2><p>边缘部分由所有连接在因特网上的主机组成。这部分是用户直接使用的，用来进行通信（传送数据、音频或视频）和资源共享。</p>
+<p>核心部分由大量网络连接这些网络的路由器组成。这部分是为边缘部分提供服务的（提供连通性和交换）。</p>
+<p><img src="https://raw.githubusercontent.com/SonyaXu/my-pics/main/%7B2FD125A3-447B-4727-8C8E-8E57AE05B1D6%7D.png" alt="{2FD125A3-447B-4727-8C8E-8E57AE05B1D6}"></p>
+<h2 id="三种交换方式"><a href="#三种交换方式" class="headerlink" title="三种交换方式"></a>三种交换方式</h2><p><img src="https://raw.githubusercontent.com/SonyaXu/my-pics/main/%7B82C501CB-23E5-45A9-B11B-8448FB0D48A4%7D.png" alt="{82C501CB-23E5-45A9-B11B-8448FB0D48A4}"></p>
+<h2 id="计算机网络概念"><a href="#计算机网络概念" class="headerlink" title="计算机网络概念"></a>计算机网络概念</h2><p>计算机网络的定义</p>
+<p>计算机网络的最简单的定义是：一些互相连接的、自治的计算机的集合；</p>
+<ol>
+<li>互连是指计算机之间可以通过有线或无线的方式进行数据通信；</li>
+<li>自治是指独立的计算机，它有自己的硬件和软件，可以单独运行使用；</li>
+<li>集合是指至少需要两台计算机；</li>
+</ol>
+<p><strong>计算机网络的较好的定义是：计算机网络主要是由一些適用的、可编程的硬件互连而成的，而这些硬件井非专门用来实现某一特定目的（例如，传送数据或视频信号）。这些可编程的硬件能够用来传送多种不同类型的数据，并能支持广泛的和日益增长的应用。</strong></p>
+<p> 计算机网络所连接的硬件，并不限于一般的计算机，而是包括了智能手机等智能硬件。</p>
+<p>计算机网络井非专门用来传送数据，而是能够支持很多种的应用（包括今后可能出现的各种应用）。</p>
+<h2 id="计算机网络分类"><a href="#计算机网络分类" class="headerlink" title="计算机网络分类"></a>计算机网络分类</h2><p><img src="https://raw.githubusercontent.com/SonyaXu/my-pics/main/%7B6D64CFD5-57EB-4929-A0FC-47E6193E3EF0%7D.png" alt="{6D64CFD5-57EB-4929-A0FC-47E6193E3EF0}"></p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
   </entry>
   <entry>
     <title>mysql-week1</title>
