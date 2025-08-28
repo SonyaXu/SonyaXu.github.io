@@ -39,4 +39,69 @@
         <category>通知</category>
       </categories>
   </entry>
+  <entry>
+    <title>java week1</title>
+    <url>/2025/08/26/java-week1/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li><p>隐式转换</p>
+<p>隐式转换：取值范围小-&gt;取值范围大</p>
+<p>示例</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">a</span> <span class="operator">=</span> <span class="number">20</span>;</span><br><span class="line"><span class="type">double</span> <span class="variable">b</span> <span class="operator">=</span> a;</span><br><span class="line">System.out.println(b);</span><br><span class="line"><span class="comment">//20.0</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>隐式转换提升规则</p>
+<p><img src="https://raw.githubusercontent.com/SonyaXu/my-pics/main/%7B4C922333-7998-48F4-B994-D703DA9B4137%7D.png" alt="{4C922333-7998-48F4-B994-D703DA9B4137}"></p>
+<p>第一张图的a会先转化为double，再和b相加，c是double型</p>
+<p>第二张图的a和b都会先直接提升为int，然后进行计算，c是int类型</p>
+<p>总规则：</p>
+<p><img src="https://raw.githubusercontent.com/SonyaXu/my-pics/main/%7BDC238552-95E7-4D14-B096-159307BCAA7A%7D.png" alt="{DC238552-95E7-4D14-B096-159307BCAA7A}"></p>
+<p>例题</p>
+<p><img src="https://raw.githubusercontent.com/SonyaXu/my-pics/main/%7BE94DA80C-CF5E-4252-A215-5D5126E98832%7D.png" alt="{E94DA80C-CF5E-4252-A215-5D5126E98832}"></p>
+</li>
+<li><p>强制转化</p>
+<p>以括号的形式，把取值范围大转换为取值范围小</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">double</span> <span class="variable">a</span> <span class="operator">=</span> <span class="number">12.3</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">b</span> <span class="operator">=</span> (<span class="type">int</span>)a;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>case穿透</p>
+<p><img src="https://raw.githubusercontent.com/SonyaXu/my-pics/main/%7BAEE854DA-A386-47E0-A75E-8A17F76F3BD9%7D.png" alt="{AEE854DA-A386-47E0-A75E-8A17F76F3BD9}"></p>
+<p>同时有省略break的办法</p>
+<p><img src="https://raw.githubusercontent.com/SonyaXu/my-pics/main/%7B607FDFD7-EA96-4A88-849E-B2FD856CEACB%7D.png" alt="{607FDFD7-EA96-4A88-849E-B2FD856CEACB}"></p>
+</li>
+<li><p>java数组</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//定义</span></span><br><span class="line"><span class="type">int</span>[] a = <span class="keyword">new</span> <span class="title class_">int</span>[]&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;;</span><br><span class="line"><span class="type">int</span>[] a = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;;</span><br><span class="line"><span class="type">int</span>[] a = <span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">5</span>];</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>方法重载</p>
+<p><img src="https://raw.githubusercontent.com/SonyaXu/my-pics/main/%7B540648CA-D94E-4EF1-B30D-27C849BCBF67%7D.png" alt="{540648CA-D94E-4EF1-B30D-27C849BCBF67}"></p>
+</li>
+<li><p>static方法和非static方法的区别：</p>
+<table>
+<thead>
+<tr>
+<th align="left">场景</th>
+<th align="left">正确写法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>静态方法调用静态方法</strong></td>
+<td align="left">✅ 可以直接调用</td>
+</tr>
+<tr>
+<td align="left"><strong>静态方法调用实例方法</strong></td>
+<td align="left">❌ 必须通过对象调用</td>
+</tr>
+<tr>
+<td align="left"><strong>实例方法调用静态方法</strong></td>
+<td align="left">✅ 可以直接调用</td>
+</tr>
+<tr>
+<td align="left"><strong>实例方法调用实例方法</strong></td>
+<td align="left">✅ 可以直接调用</td>
+</tr>
+</tbody></table>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+  </entry>
 </search>
