@@ -3,7 +3,7 @@
   <entry>
     <title>我的第一篇blog</title>
     <url>/2024/10/25/my-first-blog/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>   你好呀，欢迎来到我的第一个博客^U^</p>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>  你好呀，欢迎来到我的第一个博客^U^</p>
 <p>以后我会在这里更新我的笔记、日常和想法~~</p>
 ]]></content>
       <categories>
@@ -40,7 +40,7 @@
       </categories>
   </entry>
   <entry>
-    <title>java</title>
+    <title>Java</title>
     <url>/2025/08/26/java/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
 <li><p>隐式转换</p>
