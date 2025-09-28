@@ -157,6 +157,111 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://sonyaxu.com/2025/09/28/swarm-optimizer/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://www.helloimg.com/i/2025/08/09/68962bb72a90e.jpg">
+      <meta itemprop="name" content="Sonya">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Sonya's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2025/09/28/swarm-optimizer/" class="post-title-link" itemprop="url">swarm optimizer</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2025-09-28 16:03:04 / 修改时间：16:06:01" itemprop="dateCreated datePublished" datetime="2025-09-28T16:03:04+08:00">2025-09-28</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index"><span itemprop="name">学习</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2025/09/28/swarm-optimizer/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2025/09/28/swarm-optimizer/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>这里记录一些容易遗忘的概念：</p>
+<h2 id="SPEA2"><a href="#SPEA2" class="headerlink" title="SPEA2"></a>SPEA2</h2><h3 id="1-核心目标"><a href="#1-核心目标" class="headerlink" title="1. 核心目标"></a>1. 核心目标</h3><p>SPEA2的主要目标是解决和所有多目标进化算法一样的问题：从一个种群中选出一组解，这组解既要非常接近真实的最优边界（收敛性好），又要均匀地分布在整个边界上（多样性好）。</p>
+<h3 id="2-它是如何工作的？关键机制"><a href="#2-它是如何工作的？关键机制" class="headerlink" title="2. 它是如何工作的？关键机制"></a>2. 它是如何工作的？关键机制</h3><p>SPEA2的核心在于它独特的 “适应度分配策略” 和 “环境选择机制” 。它通过维护一个 “精英档案” 来实现其目标。</p>
+<h4 id="机制一：强度值与原始适应度"><a href="#机制一：强度值与原始适应度" class="headerlink" title="机制一：强度值与原始适应度"></a>机制一：强度值与原始适应度</h4><ol>
+<li>强度值：<ul>
+<li>对于档案中的每一个个体，它的 “强度值” 等于被它 所支配 的种群中个体的数量。</li>
+<li>比喻：一个员工的“强度”取决于公司里有多少个能力全面不如他的同事。支配的人越多，强度越高。</li>
+</ul>
+</li>
+<li>原始适应度：<ul>
+<li>种群中每个个体的 “原始适应度” 等于所有 支配它 的档案中个体的强度值之和。</li>
+<li>比喻：一个员工的“原始适应度”差，是因为有很多能力全面比他强的精英员工压在他头上。支配他的精英越多、越强，他的适应度就越差。</li>
+<li>目标：最小化原始适应度。值为0意味着这个个体是 非支配的（没有被任何精英档案中的个体支配），是最好的。</li>
+</ul>
+</li>
+</ol>
+<h4 id="机制二：密度估计"><a href="#机制二：密度估计" class="headerlink" title="机制二：密度估计"></a>机制二：密度估计</h4>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2025/09/28/swarm-optimizer/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://sonyaxu.com/2025/09/04/Evolutionary%20calculation/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -959,7 +1064,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
